@@ -49,25 +49,33 @@
         <h3>
 <a id="取数测试环境和线上环境及信息介绍" class="anchor" href="#%E5%8F%96%E6%95%B0%E6%B5%8B%E8%AF%95%E7%8E%AF%E5%A2%83%E5%92%8C%E7%BA%BF%E4%B8%8A%E7%8E%AF%E5%A2%83%E5%8F%8A%E4%BF%A1%E6%81%AF%E4%BB%8B%E7%BB%8D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>取数测试环境和线上环境及信息介绍.</h3>
 
-<p>环境介绍详情，请查看 <a href="http://wiki.ximalaya.com/pages/viewpage.action?pageId=5507610">取数测试及线上环境介绍</a>
-注意事项：页面管理工具: 测试为 192.168.3.37:9080/search-data-source/searchDataSource 开头；线上为 cms.9nali.com/search-data-source/searchDataSource</p>
+<ol>
+<li>环境介绍详情，请查看 <a href="http://wiki.ximalaya.com/pages/viewpage.action?pageId=5507610">取数测试及线上环境介绍</a>
+</li>
+<li>注意事项：页面管理工具: 测试为 192.168.3.37:9080/search-data-source/searchDataSource 开头；线上为 cms.9nali.com/search-data-source/searchDataSource</li>
+</ol>
 
 <h3>
 <a id="metadata-链数据-统计" class="anchor" href="#metadata-%E9%93%BE%E6%95%B0%E6%8D%AE-%E7%BB%9F%E8%AE%A1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>metadata 链数据 统计</h3>
 
-<p>统计点击每个<code>metadata</code>链的次数，并通过sqoop导入到线上mysql数据库
-线上mysql数据库的表名：search.sqoopHiveTableOrder
-页面管理手工执行插入分区表url 例子：
-             cms.9nali.com/search-data-source/searchDataSource?start=2016050100&amp;end=2016050100
-页面管理手工执行sqoop 导入 mysql url 例子：
-             cms.9nali.com/search-data-source/searchDataSource?start=sqoop_2016050100&amp;end=sqoop_2016050100</p>
+<ol>
+<li>统计点击每个<code>metadata</code>链的次数，并通过sqoop导入到线上mysql数据库</li>
+<li>线上mysql数据库的表名：search.sqoopHiveTableOrder</li>
+<li>页面管理手工执行插入分区表url 例子：
+         cms.9nali.com/search-data-source/searchDataSource?start=2016050100&amp;end=2016050100</li>
+<li>页面管理手工执行sqoop 导入 mysql url 例子：
+         cms.9nali.com/search-data-source/searchDataSource?start=sqoop_2016050100&amp;end=sqoop_2016050100</li>
+</ol>
 
 <h3>
 <a id="搜索基础数据发送邮件程序" class="anchor" href="#%E6%90%9C%E7%B4%A2%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E7%A8%8B%E5%BA%8F" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>搜索基础数据发送邮件程序</h3>
 
-<p>发送邮件的Excel数据类型及内容可查看文件 <code>SearchData_by_lijun.xlsx</code>
-页面管理收工执行自动化运行搜索基础数据并把生成的excel发送邮件的url例子：
-      cms.9nali.com/search-data-source/searchDataSource?baseData_start=20160620&amp;baseData_end=20160620</p>
+<ol>
+<li>发送邮件的Excel数据类型及内容可查看文件 <code>SearchData_by_lijun.xlsx</code>
+</li>
+<li>页面管理收工执行自动化运行搜索基础数据并把生成的excel发送邮件的url例子：
+  cms.9nali.com/search-data-source/searchDataSource?baseData_start=20160620&amp;baseData_end=20160620</li>
+</ol>
 
 <h3>
 <a id="分类页数据统计" class="anchor" href="#%E5%88%86%E7%B1%BB%E9%A1%B5%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>分类页数据统计</h3>
